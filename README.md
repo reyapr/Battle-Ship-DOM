@@ -2,7 +2,4 @@
 ## Battleship
 
 ## Link
-```
-https://reyapr.github.io/semantic-web/
-
-```
+https://reyapr.github.io/semantic-web

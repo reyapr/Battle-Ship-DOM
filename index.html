@@ -14,7 +14,6 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-
         }
         body{
             background-image: url('http://bit.ly/2rncmXz');
@@ -41,6 +40,7 @@
         }
         #board p{
             text-align: center;
+            margin-top:10px;
         }
         
         #status{
@@ -230,7 +230,7 @@
                 result.style.visibility = 'visible'
             }else{
                 if (missed.innerHTML == '') {
-                    missed.innerHTML = '<p class=x>X</p>'
+                    missed.innerHTML = '<p>X</p>'
                     let hit = document.getElementById('hit')
                     let miss = document.getElementById('miss')
                     let hitCount = Number(hit.innerHTML.substr(12))
